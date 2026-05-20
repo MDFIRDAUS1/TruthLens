@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #eff6ff;
+  background: #07111f;
+}
+
+main {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+textarea {
+  min-height: 130px;
+  resize: vertical;
+  border: 1px solid rgba(157, 184, 216, 0.24);
+  border-radius: 12px;
+  padding: 10px;
+  background: rgba(4, 12, 24, 0.85);
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: #0284c7;
+  color: white;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+p {
+  min-height: 18px;
+  margin: 0;
+  color: #fda4af;
+  font-size: 0.86rem;
+}
